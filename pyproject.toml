@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "researchos"
+version = "0.1.0"
+description = "A local-first, inspectable memory and workflow layer for long-running AI-assisted research."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE"}
+authors = [{name = "Jinkyong Choi"}]
+dependencies = []
+
+[project.scripts]
+researchos = "researchos.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["researchos*"]
+
