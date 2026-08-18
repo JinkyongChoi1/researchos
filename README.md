@@ -15,6 +15,10 @@ The demo uses only synthetic data. It runs:
 
 `capture → plan → research → critique → decide → log → resume`
 
+![ResearchOS dashboard demo](assets/researchos-demo.gif)
+
+The dashboard image and GIF are illustrative mockups built from synthetic content; they do not represent real research data or measured results.
+
 Open `site/index.html` directly in a browser to inspect the same demo state as a static dashboard.
 
 ## What is included
@@ -22,6 +26,7 @@ Open `site/index.html` directly in a browser to inspect the same demo state as a
 - `researchos/`: dependency-free Python CLI and workflow engine.
 - `fixtures/demo_project.json`: synthetic project, sources, claims, and decisions.
 - `site/`: static dashboard with no tracking and no backend.
+- `assets/`: launch-ready dashboard mockup and short animated demo.
 - `docs/protocol.md`: the operating protocol and safety boundaries.
 - `tests/`: standard-library tests for the workflow and provenance checks.
 
