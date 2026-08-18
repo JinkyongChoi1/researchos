@@ -1,8 +1,15 @@
+---
+title: ResearchOS
+tags: [research-memory, business-validation, agents]
+status: active
+updated: 2026-08-18
+---
+
 # ResearchOS
 
 > A local-first research memory system for long-running, AI-assisted research.
 
-ResearchOS helps research agents remember the things a research project actually needs to preserve: questions, claims, sources, uncertainty, critiques, decisions, and unfinished workflow state.
+ResearchOS helps founders, product teams, and research agents remember what business validation actually needs to preserve: hypotheses, target segments, assumptions, evidence, falsifiers, decisions, and unfinished workflow state.
 
 It is not another chatbot wrapper or vector database. It is a transparent **research-memory protocol and audit layer** that can sit above an LLM, RAG stack, or agent framework.
 
@@ -13,6 +20,7 @@ Most agent memory systems answer: “What fact should I retrieve for this prompt
 ResearchOS also asks:
 
 - What claim is this evidence allowed to support?
+- Which customer or business hypothesis is this evidence testing?
 - Which source supports it?
 - What would change our mind?
 - Who approved the decision?
@@ -42,7 +50,7 @@ The demo is dependency-free and uses only synthetic data.
 
 ![ResearchOS dashboard demo](assets/researchos-demo.gif)
 
-Open [`site/index.html`](site/index.html) for the static dashboard. The dashboard and GIF are illustrative mockups; they do not contain real research data or measured results.
+Open [`site/index.html`](site/index.html) for the static dashboard. The dashboard is optimized for business validation: hypothesis status, observed versus missing evidence, falsifiers, and the next decision. The dashboard and GIF are illustrative mockups; they do not contain real research data or measured results.
 
 ## Why this is different
 
@@ -63,6 +71,7 @@ These systems are complementary rather than mutually exclusive. A future Researc
 - `fixtures/demo_project.json` — synthetic sources, claims, risks, and decisions.
 - `site/` — static dashboard with no backend or tracking.
 - `docs/protocol.md` — workflow stages, agent roles, and public/private boundaries.
+- `docs/business-validation-memory.md` — the hypothesis/evidence/decision product specification.
 - `tests/` — standard-library tests for workflow completion and provenance validation.
 - `.github/workflows/` — automated tests and GitHub Pages deployment.
 
@@ -101,4 +110,3 @@ MVP / synthetic demo. The protocol is the product surface; LLM adapters, retriev
 ## License
 
 MIT. See [`LICENSE`](LICENSE).
-

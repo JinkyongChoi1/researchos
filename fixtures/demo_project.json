@@ -1,9 +1,16 @@
 {
   "project": {
     "id": "demo-agent-research",
-    "title": "How do small teams adopt new tools?",
-    "question": "What observable signals should a researcher inspect before making a causal claim about tool adoption?",
+    "title": "Do early-stage teams need research memory?",
+    "question": "Will small B2B startup teams repeatedly use a research-memory workspace to make better product decisions?",
     "status": "captured"
+  },
+  "hypothesis": {
+    "statement": "If research evidence, assumptions, and decisions stay connected, early-stage teams will return to the workspace when making product decisions.",
+    "segment": "Founder-led B2B startups with 2–20 employees",
+    "behavior_to_measure": "Repeat validation sessions and evidence-linked decisions",
+    "falsifier": "Teams complete one interview but do not return or link evidence to a decision",
+    "status": "untested"
   },
   "sources": [
     {"id": "src-001", "title": "Synthetic interview memo", "kind": "field-note", "locator": "demo://interview/001", "excerpt": "The team changed its workflow after a visible coordination failure."},
@@ -11,8 +18,13 @@
     {"id": "src-003", "title": "Synthetic administrative table", "kind": "data-dictionary", "locator": "demo://data/table-a", "excerpt": "The outcome is measured quarterly; missing values are structurally meaningful."}
   ],
   "claims": [
-    {"id": "clm-001", "text": "The timing of adoption is plausibly related to a coordination shock.", "source_ids": ["src-001"], "confidence": "medium"},
-    {"id": "clm-002", "text": "The proposed outcome is observed at quarterly frequency.", "source_ids": ["src-003"], "confidence": "high"}
+    {"id": "clm-001", "text": "The team changed its workflow after a visible coordination failure.", "source_ids": ["src-001"], "confidence": "medium"},
+    {"id": "clm-002", "text": "A repeat-use signal should be observed within two weeks of the first validation session.", "source_ids": ["src-003"], "confidence": "low"}
   ],
-  "decision": {"status": "pending", "text": "Do not make a causal claim until timing, outcome construction, and pre-trend diagnostics are documented.", "owner": "human-review"}
+  "evidence": [
+    {"id": "ev-001", "label": "Problem interview", "signal": "coordination failure", "status": "observed", "source_ids": ["src-001"]},
+    {"id": "ev-002", "label": "Behavioral test", "signal": "repeat validation session", "status": "missing", "source_ids": []},
+    {"id": "ev-003", "label": "Decision outcome", "signal": "evidence-linked product decision", "status": "missing", "source_ids": []}
+  ],
+  "decision": {"status": "pending", "text": "Run a two-week behavioral validation before treating the problem as a repeated need.", "owner": "human-review"}
 }

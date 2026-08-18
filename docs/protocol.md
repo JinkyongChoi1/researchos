@@ -1,8 +1,15 @@
+---
+title: ResearchOS protocol
+tags: [research-memory, business-validation, provenance]
+status: active
+updated: 2026-08-18
+---
+
 # ResearchOS protocol
 
 ## Workflow
 
-Each project moves through seven explicit stages.
+Each project moves through seven explicit stages. The memory is organized around a business hypothesis and its validation evidence, not around a transcript or a pile of retrieved documents.
 
 | Stage | Output | Gate |
 | --- | --- | --- |
@@ -13,6 +20,18 @@ Each project moves through seven explicit stages.
 | decide | human-approved next action | Has a person accepted the tradeoff? |
 | log | event and decision record | Can another session reconstruct the path? |
 | resume | next starting point | Is unfinished work visible? |
+
+## Business-validation memory
+
+Every validation project should make five objects explicit:
+
+1. **Hypothesis** — the belief, target segment, and expected behavior.
+2. **Assumptions** — what must be true for the hypothesis to matter.
+3. **Evidence** — observations, interviews, experiments, metrics, and source links.
+4. **Falsifier** — the signal that would weaken or disprove the hypothesis.
+5. **Decision** — what the team will do next, who approved it, and what evidence is still missing.
+
+The dashboard should make the gap between *believed*, *observed*, and *validated* visible at a glance.
 
 ## Agent roles
 

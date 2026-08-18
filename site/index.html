@@ -3,33 +3,43 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ResearchOS — inspectable research workflow</title>
+  <title>ResearchOS — business validation memory</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="hero">
-    <div class="eyebrow">LOCAL-FIRST / SYNTHETIC DEMO</div>
+    <div class="eyebrow">BUSINESS VALIDATION MEMORY / SYNTHETIC DEMO</div>
     <h1>ResearchOS</h1>
-    <p class="lede">A small operating system for long-running, AI-assisted research.</p>
-    <p class="muted">Agents propose. Evidence stays inspectable. Humans decide.</p>
+    <p class="lede">Keep the hypothesis, evidence, and next decision connected.</p>
+    <p class="muted">Agents gather and challenge evidence. Humans decide what the business should believe.</p>
   </header>
   <main>
     <section class="grid stats">
-      <article><span>Current stage</span><strong id="stage">resume</strong></article>
-      <article><span>Events logged</span><strong id="events">7</strong></article>
-      <article><span>Claims with sources</span><strong>2 / 2</strong></article>
-      <article><span>Decision</span><strong class="pending">pending</strong></article>
+      <article><span>Hypothesis</span><strong class="status-warn">Untested</strong></article>
+      <article><span>Evidence items</span><strong>1 / 3 observed</strong></article>
+      <article><span>Falsifier</span><strong>Defined</strong></article>
+      <article><span>Decision</span><strong class="pending">Pending</strong></article>
     </section>
+
+    <section class="panel hypothesis">
+      <div class="section-head"><div><div class="eyebrow">HYPOTHESIS</div><h2>Do early-stage teams need research memory?</h2></div><span class="badge warning">untested</span></div>
+      <p>If research evidence, assumptions, and decisions stay connected, early-stage teams will return to the workspace when making product decisions.</p>
+      <div class="hypothesis-meta"><div><span>Target segment</span><b>Founder-led B2B startups · 2–20 employees</b></div><div><span>Behavior to measure</span><b>Repeat validation sessions and evidence-linked decisions</b></div></div>
+    </section>
+
     <section class="panel">
-      <div class="section-head"><div><div class="eyebrow">WORKFLOW</div><h2>Inspectable path</h2></div><span class="badge">human approval gate</span></div>
+      <div class="section-head"><div><div class="eyebrow">VALIDATION PATH</div><h2>Belief → evidence → decision</h2></div><span class="badge">human approval gate</span></div>
       <div class="timeline" id="timeline"></div>
     </section>
+
     <section class="columns">
-      <article class="panel"><div class="eyebrow">PROJECT</div><h2>How do small teams adopt new tools?</h2><p class="muted">What observable signals should a researcher inspect before making a causal claim about tool adoption?</p><div class="callout">Do not make a causal claim until timing, outcome construction, and pre-trend diagnostics are documented.</div></article>
-      <article class="panel"><div class="eyebrow">CRITIQUE</div><h2>Open risks</h2><ul><li>Timing may be endogenous.</li><li>Synthetic fixture has no external validity.</li><li>Missing values may be structurally meaningful.</li></ul></article>
+      <article class="panel"><div class="eyebrow">EVIDENCE LEDGER</div><h2>What do we actually know?</h2><div class="evidence-list"><div class="evidence observed"><span>Observed</span><b>Problem interview</b><small>Coordination failure changed the team’s workflow · src-001</small></div><div class="evidence missing"><span>Missing</span><b>Behavioral test</b><small>Repeat validation session within two weeks</small></div><div class="evidence missing"><span>Missing</span><b>Decision outcome</b><small>Evidence-linked product decision</small></div></div></article>
+      <article class="panel"><div class="eyebrow">FALSIFIER</div><h2>What would change our mind?</h2><div class="callout">Teams complete one interview but do not return or link evidence to a decision.</div><p class="muted">A useful memory system keeps disconfirming evidence visible instead of only collecting supporting quotes.</p></article>
     </section>
+
+    <section class="panel decision-panel"><div class="eyebrow">NEXT DECISION</div><h2>Run a two-week behavioral validation</h2><p class="muted">Do not treat the problem as a repeated need until the team returns and connects evidence to a product decision.</p><div class="decision-footer"><span>Owner: human review</span><span class="badge warning">pending</span></div></section>
   </main>
-  <footer>ResearchOS MVP · No analytics · No personal data · <a href="https://github.com/">GitHub-ready</a></footer>
+  <footer>ResearchOS MVP · Synthetic data only · No analytics · <a href="https://github.com/JinkyongChoi1/researchos">GitHub</a></footer>
   <script src="app.js"></script>
 </body>
 </html>
