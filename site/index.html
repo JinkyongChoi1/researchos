@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ResearchOS — inspectable research workflow</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="eyebrow">LOCAL-FIRST / SYNTHETIC DEMO</div>
+    <h1>ResearchOS</h1>
+    <p class="lede">A small operating system for long-running, AI-assisted research.</p>
+    <p class="muted">Agents propose. Evidence stays inspectable. Humans decide.</p>
+  </header>
+  <main>
+    <section class="grid stats">
+      <article><span>Current stage</span><strong id="stage">resume</strong></article>
+      <article><span>Events logged</span><strong id="events">7</strong></article>
+      <article><span>Claims with sources</span><strong>2 / 2</strong></article>
+      <article><span>Decision</span><strong class="pending">pending</strong></article>
+    </section>
+    <section class="panel">
+      <div class="section-head"><div><div class="eyebrow">WORKFLOW</div><h2>Inspectable path</h2></div><span class="badge">human approval gate</span></div>
+      <div class="timeline" id="timeline"></div>
+    </section>
+    <section class="columns">
+      <article class="panel"><div class="eyebrow">PROJECT</div><h2>How do small teams adopt new tools?</h2><p class="muted">What observable signals should a researcher inspect before making a causal claim about tool adoption?</p><div class="callout">Do not make a causal claim until timing, outcome construction, and pre-trend diagnostics are documented.</div></article>
+      <article class="panel"><div class="eyebrow">CRITIQUE</div><h2>Open risks</h2><ul><li>Timing may be endogenous.</li><li>Synthetic fixture has no external validity.</li><li>Missing values may be structurally meaningful.</li></ul></article>
+    </section>
+  </main>
+  <footer>ResearchOS MVP · No analytics · No personal data · <a href="https://github.com/">GitHub-ready</a></footer>
+  <script src="app.js"></script>
+</body>
+</html>

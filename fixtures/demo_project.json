@@ -1,0 +1,18 @@
+{
+  "project": {
+    "id": "demo-agent-research",
+    "title": "How do small teams adopt new tools?",
+    "question": "What observable signals should a researcher inspect before making a causal claim about tool adoption?",
+    "status": "captured"
+  },
+  "sources": [
+    {"id": "src-001", "title": "Synthetic interview memo", "kind": "field-note", "locator": "demo://interview/001", "excerpt": "The team changed its workflow after a visible coordination failure."},
+    {"id": "src-002", "title": "Synthetic methods note", "kind": "methods", "locator": "demo://methods/parallel-trends", "excerpt": "A pre-trend check is informative but cannot validate every identifying assumption."},
+    {"id": "src-003", "title": "Synthetic administrative table", "kind": "data-dictionary", "locator": "demo://data/table-a", "excerpt": "The outcome is measured quarterly; missing values are structurally meaningful."}
+  ],
+  "claims": [
+    {"id": "clm-001", "text": "The timing of adoption is plausibly related to a coordination shock.", "source_ids": ["src-001"], "confidence": "medium"},
+    {"id": "clm-002", "text": "The proposed outcome is observed at quarterly frequency.", "source_ids": ["src-003"], "confidence": "high"}
+  ],
+  "decision": {"status": "pending", "text": "Do not make a causal claim until timing, outcome construction, and pre-trend diagnostics are documented.", "owner": "human-review"}
+}
