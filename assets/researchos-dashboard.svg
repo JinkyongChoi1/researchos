@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820">
+  <rect width="1400" height="820" fill="#f6f7fb"/>
+  <rect width="240" height="820" fill="#111a2e"/>
+  <text x="36" y="62" fill="#ffffff" font-family="Arial, sans-serif" font-size="28" font-weight="700">ResearchOS</text>
+  <text x="36" y="110" fill="#8fa0c3" font-family="Arial, sans-serif" font-size="12" letter-spacing="2">BUSINESS VALIDATION</text>
+  <rect x="24" y="150" width="192" height="48" rx="10" fill="#3144bd"/>
+  <text x="48" y="180" fill="#ffffff" font-family="Arial, sans-serif" font-size="16">Overview</text>
+  <text x="48" y="238" fill="#b6c1d8" font-family="Arial, sans-serif" font-size="16">Hypotheses</text>
+  <text x="48" y="292" fill="#b6c1d8" font-family="Arial, sans-serif" font-size="16">Evidence</text>
+  <text x="48" y="346" fill="#b6c1d8" font-family="Arial, sans-serif" font-size="16">Agents</text>
+  <text x="48" y="400" fill="#b6c1d8" font-family="Arial, sans-serif" font-size="16">Knowledge graph</text>
+  <rect x="28" y="710" width="184" height="64" rx="10" fill="#19243d" stroke="#33415f"/>
+  <circle cx="50" cy="738" r="5" fill="#36c98f"/>
+  <text x="66" y="743" fill="#e5eaf5" font-family="Arial, sans-serif" font-size="13">Synthetic demo</text>
+
+  <text x="284" y="68" fill="#172033" font-family="Arial, sans-serif" font-size="34" font-weight="700">Research memory</text>
+  <text x="284" y="100" fill="#697386" font-family="Arial, sans-serif" font-size="17">The agents, relationships, and tests behind one business hypothesis.</text>
+
+  <rect x="284" y="140" width="330" height="600" rx="16" fill="#ffffff" stroke="#dfe4ec"/>
+  <text x="312" y="184" fill="#5b4bdb" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2">01 / AGENTS</text>
+  <text x="312" y="224" fill="#172033" font-family="Arial, sans-serif" font-size="23" font-weight="700">Research team</text>
+  <circle cx="330" cy="280" r="18" fill="#e7e5ff"/><text x="320" y="287" fill="#5b4bdb" font-family="Arial, sans-serif" font-size="16" font-weight="700">P</text>
+  <text x="362" y="278" fill="#172033" font-family="Arial, sans-serif" font-size="16" font-weight="700">Planner</text><text x="362" y="300" fill="#697386" font-family="Arial, sans-serif" font-size="13">Defines the hypothesis test</text>
+  <circle cx="330" cy="360" r="18" fill="#dff7ee"/><text x="320" y="367" fill="#138a68" font-family="Arial, sans-serif" font-size="16" font-weight="700">R</text>
+  <text x="362" y="358" fill="#172033" font-family="Arial, sans-serif" font-size="16" font-weight="700">Researcher</text><text x="362" y="380" fill="#697386" font-family="Arial, sans-serif" font-size="13">Collects linked evidence</text>
+  <circle cx="330" cy="440" r="18" fill="#fff0df"/><text x="320" y="447" fill="#bd6c18" font-family="Arial, sans-serif" font-size="16" font-weight="700">C</text>
+  <text x="362" y="438" fill="#172033" font-family="Arial, sans-serif" font-size="16" font-weight="700">Critic</text><text x="362" y="460" fill="#697386" font-family="Arial, sans-serif" font-size="13">Searches for falsifiers</text>
+  <circle cx="330" cy="520" r="18" fill="#e8f0ff"/><text x="320" y="527" fill="#3b6edb" font-family="Arial, sans-serif" font-size="16" font-weight="700">H</text>
+  <text x="362" y="518" fill="#172033" font-family="Arial, sans-serif" font-size="16" font-weight="700">Human reviewer</text><text x="362" y="540" fill="#697386" font-family="Arial, sans-serif" font-size="13">Approves the decision</text>
+
+  <rect x="638" y="140" width="330" height="600" rx="16" fill="#ffffff" stroke="#dfe4ec"/>
+  <text x="666" y="184" fill="#5b4bdb" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2">02 / KNOWLEDGE GRAPH</text>
+  <text x="666" y="224" fill="#172033" font-family="Arial, sans-serif" font-size="23" font-weight="700">What connects?</text>
+  <line x1="724" y1="346" x2="824" y2="276" stroke="#b8c2d4" stroke-width="3"/><line x1="724" y1="346" x2="830" y2="430" stroke="#b8c2d4" stroke-width="3"/><line x1="824" y1="276" x2="884" y2="350" stroke="#b8c2d4" stroke-width="3"/><line x1="830" y1="430" x2="884" y2="350" stroke="#b8c2d4" stroke-width="3"/>
+  <circle cx="724" cy="346" r="42" fill="#e7e5ff" stroke="#5b4bdb" stroke-width="3"/><text x="690" y="351" fill="#3c319a" font-family="Arial, sans-serif" font-size="12" font-weight="700">HYPOTHESIS</text>
+  <circle cx="824" cy="276" r="34" fill="#dff7ee" stroke="#138a68" stroke-width="3"/><text x="802" y="281" fill="#0b684e" font-family="Arial, sans-serif" font-size="12" font-weight="700">SOURCE</text>
+  <circle cx="830" cy="430" r="34" fill="#fff0df" stroke="#bd6c18" stroke-width="3"/><text x="807" y="435" fill="#8a4b0a" font-family="Arial, sans-serif" font-size="12" font-weight="700">CLAIM</text>
+  <circle cx="884" cy="350" r="34" fill="#e8f0ff" stroke="#3b6edb" stroke-width="3"/><text x="861" y="355" fill="#244c9b" font-family="Arial, sans-serif" font-size="12" font-weight="700">DECISION</text>
+  <text x="666" y="590" fill="#697386" font-family="Arial, sans-serif" font-size="14">Every edge answers:</text>
+  <text x="666" y="618" fill="#172033" font-family="Arial, sans-serif" font-size="16" font-weight="700">“What supports this belief?”</text>
+  <text x="666" y="652" fill="#697386" font-family="Arial, sans-serif" font-size="14">Source-linked, human-readable, resumable.</text>
+
+  <rect x="992" y="140" width="370" height="600" rx="16" fill="#ffffff" stroke="#dfe4ec"/>
+  <text x="1020" y="184" fill="#5b4bdb" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2">03 / HYPOTHESIS TESTED</text>
+  <text x="1020" y="224" fill="#172033" font-family="Arial, sans-serif" font-size="23" font-weight="700">Validation results</text>
+  <text x="1020" y="260" fill="#697386" font-family="Arial, sans-serif" font-size="14">Will early-stage teams return to use research memory?</text>
+  <line x1="1020" y1="284" x2="1332" y2="284" stroke="#dfe4ec"/>
+  <text x="1020" y="318" fill="#697386" font-family="Arial, sans-serif" font-size="12">HYPOTHESIS</text><text x="1220" y="318" fill="#697386" font-family="Arial, sans-serif" font-size="12">P-VALUE</text><text x="1290" y="318" fill="#697386" font-family="Arial, sans-serif" font-size="12">STATUS</text>
+  <text x="1020" y="360" fill="#172033" font-family="Arial, sans-serif" font-size="14" font-weight="700">Repeat use ↑</text><text x="1220" y="360" fill="#172033" font-family="Arial, sans-serif" font-size="14">0.032</text><rect x="1284" y="342" width="54" height="26" rx="13" fill="#dff7ee"/><text x="1295" y="360" fill="#138a68" font-family="Arial, sans-serif" font-size="12" font-weight="700">KEEP</text>
+  <text x="1020" y="414" fill="#172033" font-family="Arial, sans-serif" font-size="14" font-weight="700">Interview pain</text><text x="1220" y="414" fill="#172033" font-family="Arial, sans-serif" font-size="14">0.410</text><rect x="1284" y="396" width="54" height="26" rx="13" fill="#fff0df"/><text x="1295" y="414" fill="#bd6c18" font-family="Arial, sans-serif" font-size="12" font-weight="700">DROP</text>
+  <text x="1020" y="468" fill="#172033" font-family="Arial, sans-serif" font-size="14" font-weight="700">Decision link</text><text x="1220" y="468" fill="#172033" font-family="Arial, sans-serif" font-size="14">0.087</text><rect x="1284" y="450" width="54" height="26" rx="13" fill="#eeecff"/><text x="1292" y="468" fill="#5b4bdb" font-family="Arial, sans-serif" font-size="12" font-weight="700">PEND.</text>
+  <line x1="1020" y1="510" x2="1332" y2="510" stroke="#dfe4ec"/>
+  <text x="1020" y="552" fill="#697386" font-family="Arial, sans-serif" font-size="13">Analysis</text><text x="1120" y="552" fill="#172033" font-family="Arial, sans-serif" font-size="14" font-weight="700">Difference-in-differences</text>
+  <text x="1020" y="590" fill="#697386" font-family="Arial, sans-serif" font-size="13">Decision rule</text><text x="1120" y="590" fill="#172033" font-family="Arial, sans-serif" font-size="14" font-weight="700">Keep if p &lt; 0.05 + pre-trend clean</text>
+  <rect x="1020" y="638" width="312" height="54" rx="10" fill="#f6f7fb"/><text x="1040" y="671" fill="#172033" font-family="Arial, sans-serif" font-size="14">Next: collect repeat-use evidence</text>
+</svg>

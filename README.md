@@ -48,9 +48,9 @@ researchos validate
 
 The demo is dependency-free and uses only synthetic data.
 
-![ResearchOS dashboard demo](assets/researchos-demo.gif)
+![ResearchOS dashboard](assets/researchos-dashboard.svg)
 
-Open [`site/index.html`](site/index.html) for the static dashboard. The dashboard is optimized for business validation: hypothesis status, observed versus missing evidence, falsifiers, and the next decision. The dashboard and GIF are illustrative mockups; they do not contain real research data or measured results.
+Open [`site/index.html`](site/index.html) for the interactive static dashboard. The dashboard is intentionally reduced to three views: agent team, knowledge graph, and hypothesis-test results. The dashboard and SVG are illustrative mockups; they do not contain real research data or measured results.
 
 ## Why this is different
 
